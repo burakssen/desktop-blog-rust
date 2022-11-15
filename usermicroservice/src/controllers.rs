@@ -6,6 +6,7 @@ use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
 
 #[get("/get_all_users")]
 pub async fn get_all_users() -> impl Responder {
+    eprintln!("Get all users called");
     service_get_all_users()
 }
 

@@ -1,1 +1,8 @@
 /usermicroservice/target
+/usermicroservice/.env
+/.idea
+/cmake-build-debug
+/frontend/.idea
+/frontend/.env
+/frontend/cmake-build-debug
+/frontend/target
